@@ -1,0 +1,20 @@
+char -> Caracteres únicos
+ex: A, j, z, Z.
+
+int -> Números inteiros (4 bytes)
+ex: 1, 2, 999, -3.
+
+    short -> 2 bytes
+    long -> 8 bytes
+    unsigned -> Ignora o byte do sinal matemático do número (módulo) (Permite números pouco maiores que o int puro)
+    signed -> Não ignora o byte do sinal matemático do número
+    ! Podem ser combinadas ! ex: unsigned short int, long long int
+
+float -> Números com vírgula (ponto flutuante) (4 bytes)
+ex: 1.0, 0.001, 123.3, 0.321.
+
+    double -> Ocupa o *dobro* de espaço na memória (números maiores) (8 bytes)
+
+void -> Armazena o valor vazio
+
+https://www.onlinetutorialspoint.com/c-program/c-integer-data-types-int-short-int-long-int.html
