@@ -50,8 +50,8 @@ void main()
 
     printf("\n\n----------------- LISTAGEM COMPLETA -----------------\n");
     printf("NOME\t\t\t\t\tSEXO\tNOTA\n");
-    printf("%-40s%c\t%3.1f\n", nome, sexo, nota);
-    printf("%-40s%c\t%3.1f\n", nome2, sexo2, nota2);
-    printf("%-40s%c\t%3.1f\n", nome3, sexo3, nota3);
-          // ^^^ alinha com 40 espaços à esquerda
+    printf("%-40s%c\t%4.1f\n", nome, sexo, nota);
+    printf("%-40s%c\t%4.1f\n", nome2, sexo2, nota2);
+    printf("%-40s%c\t%4.1f\n", nome3, sexo3, nota3);
+          // ^^^ alinha com 40 espaços à esquerda (sem o '-' ele alinha à direita)
 }
