@@ -29,6 +29,8 @@ void main()
     c = a % b;
     printf("\n\nO resto da divisão entre %i e %i e igual a %i.", a, b, c);
 
+    //Pra corrigir esses problemas, se usa typecast/coerção/casting de tipo (próxima anotação)
+
 // -------------------------------------------------------------------------------------------------------------------
 
     float preco = 35.55, preco_final;
