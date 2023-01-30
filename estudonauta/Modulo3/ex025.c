@@ -3,7 +3,7 @@
 
 void main()
 {
-    printf("<<< ex024 - EXERCICIO MILITAR V2.0 >>>\n\n");
+    printf("<<< ex025 - EXERCICIO MILITAR V2.0 >>>\n\n");
 
     int idade, ano_at, ano_nasc;
 
